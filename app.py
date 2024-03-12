@@ -15,7 +15,7 @@ def save_message():
 
 @app.route('/messages')
 def show_messages():
-    return '<br>'.join(messages)
+    return '<br><br><br>'.join(messages)
 
 if __name__ == '__main__':
     app.run(debug=True)
